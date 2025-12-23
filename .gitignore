@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit
+.streamlit/
+*.ckpt
+*.safetensors
+
+# IDE
+.idea/
+.vscode/
+
+# Project specific
+# We keep weights if they are <100MB. best.pt is ~6MB.
+# weights/
+
+# OS
+.DS_Store
+Thumbs.db
