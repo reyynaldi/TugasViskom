@@ -34,7 +34,7 @@ mode = st.sidebar.radio(
 
 conf_threshold = st.sidebar.slider("Confidence Threshold", 0.0, 1.0, 0.4, 0.05)
 iou_threshold = st.sidebar.slider("IOU Threshold", 0.0, 1.0, 0.5, 0.05)
-img_size = st.sidebar.slider("Inference Image Size", 320, 1024, 320, 32)
+img_size = st.sidebar.slider("Inference Image Size", 320, 1024, 640, 32)
 
 if 'model' in locals():
     st.sidebar.markdown("---")
